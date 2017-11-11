@@ -1,0 +1,19 @@
+{
+  "name": "Zalo",
+  "version": "1.0.0",
+  "description": "day la san pham mau cho du an freeclanze",
+  "main": "app.js",
+  "script": {
+    "test": "echo \" Error: no test specificed\" && exit 1"
+  },
+  "author": "Phuc",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "*",
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0",
+    "socket.io": "*",
+    "socketio-file-upload": "^0.4.4"
+  }
+}
