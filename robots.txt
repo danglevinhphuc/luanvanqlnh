@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /app
+Disallow: /config
+Disallow: /database
+Disallow: /routes
+Disallow: /vendor
+Disallow: /test

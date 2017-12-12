@@ -1,0 +1,40 @@
+/* latin */
+@font-face {
+  font-family: 'Covered By Your Grace';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Covered By Your Grace'), local('CoveredByYourGrace'), url(http://fonts.gstatic.com/s/coveredbyyourgrace/v7/6ozZp4BPlrbDRWPe3EBGAxIQb9tn0GTKNjAuszxKf4A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ruda Regular'), local('Ruda-Regular'), url(http://fonts.gstatic.com/s/ruda/v9/1sL847GoOH8xYu1qOqsKrw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ruda Regular'), local('Ruda-Regular'), url(http://fonts.gstatic.com/s/ruda/v9/T9zdIB5JGDJjRO8KNoV_pA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ruda Bold'), local('Ruda-Bold'), url(http://fonts.gstatic.com/s/ruda/v9/Cq8KyqhCX-f1J9BsOyq_FvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Ruda';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ruda Bold'), local('Ruda-Bold'), url(http://fonts.gstatic.com/s/ruda/v9/ioyuq9I92dSCu7pGUbx7zA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}

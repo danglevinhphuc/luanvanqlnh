@@ -1,19 +1,21 @@
 {
-  "name": "Zalo",
-  "version": "1.0.0",
-  "description": "day la san pham mau cho du an freeclanze",
-  "main": "app.js",
-  "script": {
-    "test": "echo \" Error: no test specificed\" && exit 1"
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
-  "author": "Phuc",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "*",
-    "ejs": "*",
-    "express": "^4.14.0",
-    "nodemon": "^1.11.0",
-    "socket.io": "*",
-    "socketio-file-upload": "^0.4.4"
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "bootstrap-sass": "^3.3.7",
+    "cross-env": "^5.0.1",
+    "jquery": "^3.1.1",
+    "laravel-mix": "^1.0",
+    "lodash": "^4.17.4",
+    "vue": "^2.1.10"
   }
 }
